@@ -1,0 +1,69 @@
+.searchbox{
+    padding: 10px;
+    button{
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 6px 10px;
+        text-align: left;
+        background-color: #eee;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #645f5f;
+        background-image: url("../img/searchb.png");
+        background-size: 18px;
+        background-repeat: no-repeat;
+        background-position: 98% center;
+        outline: none;
+    }
+    .resolut{
+        margin-top: 10px;
+        display: none;
+        .list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            .item-content{
+                border-bottom: 1px solid #e0e0e0;
+                a{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-decoration: none;
+                    width: 100%;
+                    padding: 5px;
+                    .item-media{
+                        span{
+                            display: block;
+                            width: 30px;
+                            height: 30px;
+                            line-height: 30px;
+                            background: linear-gradient(0deg,#726e6e,#f0ecec);
+                            border-radius: 100%;
+                            color: #fff;
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                    .item-main{
+                        flex: 1;
+                        margin-left: 10px;
+                        .item-title-row{
+                            span{
+                                color: #000;
+                                font-size: 15px;
+                            }
+                        }
+                        .item-subtitle{
+                            color: #6d6868;
+                            font-size: 14px;
+                            span{
+                                color: #64A6FD;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
